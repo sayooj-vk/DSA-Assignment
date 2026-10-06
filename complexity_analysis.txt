@@ -1,0 +1,50 @@
+COMPLEXITY ANALYSIS
+
+1. K-WAY MERGE USING MIN HEAP
+
+Number of sorted lists (k) = 3
+Total number of elements (N) = 12
+Maximum heap size = 3
+
+Time Complexity:
+O(N log k)
+
+Space Complexity:
+O(k)
+
+
+2. PAIRWISE MERGING
+
+First merge: L1 + L2
+Elements merged = 4 + 4 = 8
+
+Second merge: (L1 + L2) + L3
+Elements merged = 8 + 4 = 12
+
+Time Complexity:
+O(Nk) in general
+
+Space Complexity:
+O(N) due to intermediate arrays
+
+
+3. COMPARISON
+
+Min Heap:
+- Heap size: Maximum k = 3
+- Time: O(N log k)
+- Space: O(k)
+- Efficient when the number of sorted files increases
+
+Pairwise Merge:
+- Uses intermediate merged arrays
+- Time: O(Nk) in general
+- Space: O(N)
+- Becomes less efficient as the number of files increases
+
+
+CONCLUSION
+
+For a small number of sorted lists, both methods work well.
+When the number of sorted files increases, the Min Heap k-way merge
+is more suitable because it provides better time and space efficiency.
