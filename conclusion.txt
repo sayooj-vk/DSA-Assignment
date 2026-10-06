@@ -1,0 +1,10 @@
+CONCLUSION
+
+Both K-way merge using a Min Heap and pairwise merging successfully
+merge the three sorted transaction lists into one sorted list.
+
+The Min Heap method uses O(N log k) time and O(k) extra space.
+Pairwise merging uses O(Nk) time in general and O(N) extra space.
+
+Therefore, K-way merge using a Min Heap is the more suitable approach
+when the number of sorted files increases because it is more efficient.
