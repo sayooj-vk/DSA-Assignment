@@ -1,0 +1,16 @@
+K-WAY MERGE USING MIN HEAP - TRACE TABLE
+
+Step    Deleted Element    Heap After Processing
+Initial       -             10 15 20
+1             10            15 20 30
+2             15            20 30 35
+3             20            30 35 40
+4             30            35 40 50
+5             35            40 50 55
+6             40            50 55 60
+7             50            55 60 70
+8             55            60 70 75
+9             60            70 75 80
+10            70            75 80
+11            75            80
+12            80            Empty
