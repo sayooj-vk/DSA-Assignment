@@ -1,0 +1,16 @@
+COMPARISON OF K-WAY MERGE AND PAIRWISE MERGE
+
+Parameter              K-Way Merge using Min Heap       Pairwise Merge
+-----------------------------------------------------------------------
+Data Structure         Min Heap                         Arrays
+Heap Size              Maximum k = 3                    Not applicable
+Comparisons            Based on heap operations         Direct element comparison
+Time Complexity        O(N log k)                       O(Nk) in general
+Space Complexity       O(k)                             O(N)
+Intermediate Array     Not required                     Required
+For More Files         More efficient                   Less efficient
+
+RESULT:
+K-way merge using a Min Heap is more suitable when the number of
+sorted files increases because it is more efficient in time and
+uses less extra space.
