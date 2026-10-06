@@ -1,0 +1,36 @@
+PAIRWISE MERGE - TRACE TABLE
+
+FIRST MERGE: L1 + L2
+
+Step    Comparison       Selected Element
+1       10 vs 20         10
+2       30 vs 20         20
+3       30 vs 40         30
+4       50 vs 40         40
+5       50 vs 60         50
+6       70 vs 60         60
+7       70 vs 80         70
+8       Remaining        80
+
+Result:
+10 20 30 40 50 60 70 80
+
+
+SECOND MERGE: (L1 + L2) + L3
+
+Step    Comparison       Selected Element
+1       10 vs 15         10
+2       20 vs 15         15
+3       20 vs 35         20
+4       30 vs 35         30
+5       40 vs 35         35
+6       40 vs 55         40
+7       50 vs 55         50
+8       60 vs 55         55
+9       60 vs 75         60
+10      70 vs 75         70
+11      80 vs 75         75
+12      Remaining        80
+
+Final Result:
+10 15 20 30 35 40 50 55 60 70 75 80
